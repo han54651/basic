@@ -10,4 +10,7 @@ class Student(object):
 
 	def __str__(self):
 		return self.name
+	
+	def say(self):
+		print("hello word!")
 		
